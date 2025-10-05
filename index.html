@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Header + Hero</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&family=Inter:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header" role="banner" aria-label="Main header">
+      <div class="headerInner">
+        <a class="logo" href="#" aria-label="Company home">
+          <img class="logoIcon" src="./assets/Group (1).png" alt="" width="72" height="58" />
+          <span class="logoText">
+            <span class="logoWord">COMPANY</span>
+            <span class="logoTag">business tagline</span>
+          </span>
+        </a>
+
+        <nav class="nav" aria-label="Primary">
+          <ul class="navList">
+            <li class="navItem"><a class="navLink" href="#">Home</a></li>
+            <li class="navItem"><a class="navLink" href="#">About Us</a></li>
+            <li class="navItem"><a class="navLink" href="#">Our Services</a></li>
+            <li class="navItem"><a class="navLink" href="#">Pricing</a></li>
+            <li class="navItem"><a class="navLink" href="#">FAQ</a></li>
+          </ul>
+        </nav>
+
+        <a href="#" class="cta" role="button">Get A Quote</a>
+      </div>
+    </header>
+
+    <section class="hero" aria-label="Hero">
+      <div class="heroInner">
+        <div class="heroText">
+          <h1 class="heroTitle">
+            <span class="row">Your Resume</span>
+            <span class="row">
+              <span class="heroEmph">
+                Deserves A Yes
+                <!-- Exact two-stroke underline as per reference -->
+                <svg class="heroCurve" viewBox="0 0 363 22" preserveAspectRatio="none" aria-hidden="true">
+                  <!-- Long lower shallow arc across full width -->
+                  <path d="M6 16 C 120 21, 242 21, 357 14"
+                        stroke="#FA1239" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                  <!-- Short upper stroke, centered, slight left plateau -->
+                  <path d="M78 15 C 132 16, 186 16, 232 13"
+                        stroke="#FA1239" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                </svg>
+              </span>
+              <span class="lets">Let’s</span>
+            </span>
+            <span class="row">Make It Happen</span>
+          </h1>
+
+          <p class="heroPara">
+            If Your Resume Isn’t Getting Responses, It’s Time For An Upgrade. Get An ATS-Optimized Resume Crafted By HR Experts To Help You Land More Interviews. Our Resumes Are Designed To Get Your Foot In The Door And Place Your Name At The Top Of The Shortlist.
+          </p>
+
+          <div class="heroButtons">
+            <a href="#" class="btnGhost outlined">RESUME PAKAGES</a>
+            <a href="#" class="cta">CONTACT US</a>
+          </div>
+        </div>
+
+        <div class="heroVisual">
+          <div class="heroEllipse big"></div>
+          <div class="heroEllipse small"></div>
+
+          <img class="heroImg" src="./assets/hero-person.png" alt="Student holding books" width="506" height="727" />
+
+          <!-- Rating badge with stronger blur -->
+          <div class="ratingCard">
+            <div class="ratingLeft">
+              <span class="ratingNum">4.9</span>
+            </div>
+            <div class="ratingRight">
+              <div class="ratingStars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+              <div class="ratingLabel">Instructor Rating</div>
+            </div>
+          </div>
+
+          <!-- 260+ badge (size + two-line label) -->
+          <div class="statCard">
+            <span class="statIconSlot"></span>
+            <div class="statText">
+              <strong>260+</strong>
+              <small>Online Resume<br>Created</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
